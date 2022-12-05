@@ -2,6 +2,10 @@ package main
 
 // import "fmt"
 
+/*
+ ? nil hanya bisa digunakan di beberapa type data seperti interface, func, map, slice, pointer, dan channel
+*/
+
 // type newNameMap map[string]string
 
 // func newMap(name string) newNameMap {
