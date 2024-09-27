@@ -1,15 +1,15 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	type NoKTP string
-// 	type married bool
+func TypeDeclarationsModule() {
+	type NoKTP string
+	type married bool
 
-// 	var noKtp NoKTP = "28934928348264"
-// 	var marriedStatus married = false
+	var noKtp NoKTP = "28934928348264"
+	var marriedStatus married = false
 
-// 	fmt.Println(noKtp)
-// 	fmt.Println(marriedStatus)
+	fmt.Println(noKtp)
+	fmt.Println(marriedStatus)
 
-// }
+}

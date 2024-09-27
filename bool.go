@@ -1,8 +1,8 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func bool() {
-// 	fmt.Println("benar = ", true)
-// 	fmt.Println("salah = ", false)
-// }
+func BoolModule() {
+	fmt.Println("benar = ", true)
+	fmt.Println("salah = ", false)
+}

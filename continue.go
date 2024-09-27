@@ -1,13 +1,13 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	for i := 0; i < 10; i++ {
-// 		if 1%2 == 0 {
-// 			continue
-// 			// * fungsi continue dalah untuk meng-skip block code dibawahnya, dan melanjutkan ke perulangan selanjutnya
-// 		}
-// 		fmt.Println("perulangan ke-", i)
-// 	}
-// }
+func ContinueModule() {
+	for i := 0; i < 10; i++ {
+		if 1%2 == 0 {
+			continue
+			// * fungsi continue dalah untuk meng-skip block code dibawahnya, dan melanjutkan ke perulangan selanjutnya
+		}
+		fmt.Println("perulangan ke-", i)
+	}
+}

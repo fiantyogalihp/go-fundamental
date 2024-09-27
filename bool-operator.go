@@ -1,18 +1,18 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	nilaiAhir := 88
-// 	absensi := 80
+func BoolOperator() {
+	nilaiAhir := 88
+	absensi := 80
 
-// 	/*  lulusUjian := nilaiAhir > 80
-// 	lulusAbsensi := absensi > 80
-// 	fmt.Println(lulusUjian)
-// 	fmt.Println(lulusAbsensi)
+	/*  lulusUjian := nilaiAhir > 80
+	lulusAbsensi := absensi > 80
+	fmt.Println(lulusUjian)
+	fmt.Println(lulusAbsensi)
 
-// 	lulus := lulusUjian && lulusAbsensi
-// 	fmt.Println(lulus) */
+	lulus := lulusUjian && lulusAbsensi
+	fmt.Println(lulus) */
 
-// 	fmt.Println(nilaiAhir > 80 && absensi >= 80)
-// }
+	fmt.Println(nilaiAhir > 80 && absensi >= 80)
+}

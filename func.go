@@ -1,23 +1,23 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func sayHello() {
-// 	for i := 0; i < 10; i++ {
-// 		fmt.Println("Hello World!")
-// 	}
-// }
+func sayHello() {
+	for i := 0; i < 10; i++ {
+		fmt.Println("Hello World!")
+	}
+}
 
-// func sayHelloTo(firstName string, lastName string) {
-// 	fmt.Println("hello", firstName, lastName)
-// }
+func sayHelloTo(firstName string, lastName string) {
+	fmt.Println("hello", firstName, lastName)
+}
 
-// func main() {
+func FuncModule() {
 
-// 	firstName := "fian"
-// 	lastName := "tyo"
+	firstName := "fian"
+	lastName := "tyo"
 
-// 	sayHello()
-// 	sayHelloTo(firstName, "tyo")
-// 	sayHelloTo(firstName, lastName)
-// }
+	sayHello()
+	sayHelloTo(firstName, "tyo")
+	sayHelloTo(firstName, lastName)
+}
